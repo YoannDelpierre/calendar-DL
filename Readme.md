@@ -1,5 +1,5 @@
 ## Test Front End Developer @ Doctolib
-Coder en pur Javascript une classe qui permet d'afficher un agenda en vue semaine qui affiche les événements qui lui sont passés en argument.
+Coder en pur Javascript (sans utiliser de bibliothèque tierce) une classe qui permet d'afficher un agenda en vue semaine qui affiche les événements qui lui sont passés en argument.
 ``` javascript
 new Calendar('#calendar-wrapper', new Date(2014, 9, 6),
   [
@@ -12,4 +12,4 @@ new Calendar('#calendar-wrapper', new Date(2014, 9, 6),
 ```
 Le résultat de l'appel ci-dessus doit ressembler à peu près au screenshot ci-dessous.
 L'agenda doit s'adapter aux dimensions de l'élément englobant. Le placement des événements doit gérer le chevauchement (pas nécessairement de la même façon que le screenshot).
-Il faut livrer le js et le css qui s'intègrent au fichier index.html de ce gist ainsi que les éventuels fichiers source si il y a lieu (coffee, less, sass, ...).
+Il faut livrer le js et le css qui s'intègrent au fichier index.html (inchangé) de ce gist ainsi que les éventuels fichiers source si il y a lieu (coffee, less, sass, ...).
