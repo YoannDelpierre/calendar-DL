@@ -4,9 +4,11 @@ Coder en pur Javascript (sans utiliser de bibliothèque tierce) une classe qui p
 new Calendar('#calendar-wrapper', new Date(2014, 9, 6),
   [
     {start_date: new Date(2014, 9, 8, 9, 30), end_date: new Date(2014, 9, 8, 14, 0), title: 'Al Di Meola'},
-    {start_date: new Date(2014, 9, 10, 9, 15), end_date: new Date(2014, 9, 10, 12, 30), title: 'Paco De Lucia'},
-    {start_date: new Date(2014, 9, 10, 12, 0), end_date: new Date(2014, 9, 10, 15, 30), title: 'John McLaughlin'},
-    {start_date: new Date(2014, 9, 10, 15, 0), end_date: new Date(2014, 9, 10, 18, 30), title: 'Django Reinhardt'}
+        {start_date: new Date(2014, 9, 10, 9, 15), end_date: new Date(2014, 9, 10, 12, 30), title: 'Paco De Lucia'},
+        {start_date: new Date(2014, 9, 10, 12, 0), end_date: new Date(2014, 9, 10, 15, 30), title: 'John McLaughlin'},
+        {start_date: new Date(2014, 9, 10, 15, 0), end_date: new Date(2014, 9, 10, 18, 30), title: 'Django Reinhardt'},
+        {start_date: new Date(2014, 9, 7, 9, 30), end_date: new Date(2014, 9, 7, 12, 0), title: 'Estrella Morente'},
+        {start_date: new Date(2014, 9, 7, 9, 30), end_date: new Date(2014, 9, 7, 12, 0), title: 'Carlos Montoya'}
   ]
 )
 ```
